@@ -19,7 +19,7 @@ $channels = array(
   ),
 );
 
-$slack_token = 'xoxp-594062572741-683345046743-681724783585-5eebcaa5a8ba203c3d6fa0bfc5689f78';
+$slack_token = getenv('slack_token');
 
 $nexmo_key = array(
   'api_key' => '',
